@@ -18,7 +18,6 @@ This repo contains verilog code for an asynchronous FIFO.
         4. [rptr_empty](#rptr_emptyv)
         5. [wptr_full.v](#wptr_fullv)
 4. [Testbench Case Implementation](#testbench-case-implementation)
-    1. [Waveforms](#waveforms)
 5. [Outcomes](#Outcomes)
 6. [Conclusion](#conclusion)
 7. [Bibliography](#Bibliography)
