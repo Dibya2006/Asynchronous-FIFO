@@ -28,16 +28,19 @@ This repo contains verilog code for an asynchronous FIFO.
 
 ## Introduction
 
-- FIFO stands for "First-In, First-Out." It is a type of data structure or buffer in which the first data element added (the "first in") is the first one to be removed (the "first out"). This structure is commonly used in scenarios where order of operations is important.
-- Async FIFO, or Asynchronous FIFO, is a FIFO buffer where the read and write operations are controlled by independent clock domains. This means that the writing process and the reading process are driven by different clocks, which are not synchronized. Async FIFOs are used to safely transfer data between these asynchronous clock domains.
-- <img src=".\Assets\FIFO_in_system.png" alt="Alt Text" width="500">
-- Async FIFOs are used in various applications where data needs to be transferred between two parts of a system that operate on different clock frequencies. Some common use cases include:
+FIFO (First-In, First-Out) refers to a fundamental buffering structure where data is retrieved in the exact order it was stored. This sequential management is crucial for applications that must maintain strict data ordering.
 
-    - Interfacing between different clock domains: For example, transferring data between a high-speed processing unit and a slower peripheral.
-    - Communication between different modules: In a system-on-chip (SoC) where different modules might operate at different clock rates.
-    - Buffering data: To handle variations in data flow rates between producer and consumer components in digital systems.
-    - Bridging clock domains: In FPGA designs and other digital circuits where subsystems run at different clock speeds
+An Asynchronous FIFO (Async FIFO) is a specialized variant designed to handle data transfer between independent, unsynchronized clock domains. Because the read and write interfaces are driven by distinct clock sources, Async FIFOs act as a safe bridge to prevent data corruption across clock boundaries.
 
+Key Applications:
+
+-Clock Domain Crossing (CDC): Safely moving data between systems running on completely separate frequencies, such as a fast processor and a slower peripheral.
+
+-System-on-Chip (SoC) Integration: Facilitating smooth communication between diverse internal modules that operate at different clock rates.
+
+-Rate Matching & Buffering: Absorbing variations in data throughput between a fast producer and a slow consumer (or vice versa).
+
+-FPGA Design: Connecting independent subsystems within programmable logic where global clock synchronization is impractical.
 ## Design Space Exploration and Design Strategies
 
 The block diagram of async. FIFO that is implemented in this repo is given below. Thin lines represent single bit signal where as thisck lines represent multi-bit signal.
