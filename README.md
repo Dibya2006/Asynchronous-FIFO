@@ -159,4 +159,4 @@ Ultimately, this asynchronous FIFO architecture provides a robust solution for c
 
 ## Bibliography
 1. [Sunburst Design: Simulation and Synthesis Techniques for Asynchronous FIFO Design](http://www.sunburst-design.com/papers/CummingsSNUG2002SJ_FIFO1.pdf)
-2. [VLSI verify Blog - Asynchronous FIFO](https://vlsiverify.com/verilog/verilog-codes/asynchronous-fifo/)
+2. ["Asynchronous FIFO," ChipVerify](https://www.chipverify.com/verilog/verilog-asynchronous-fifo)
