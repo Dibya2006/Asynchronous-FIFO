@@ -146,10 +146,11 @@ The testbench uses clock signals for writing and reading, and includes reset sig
 
 ## Outcomes
 
-The asynchronous FIFO design was tested using a testbench. The following key results were observed:-
+Key Results
 
-1. **Correct Data Storage and Retrieval**: The FIFO correctly stored data when written to and retrieved the exact same data when read from. This was validated across multiple test cases with varying data patterns.
-2. **Full and Empty Conditions**: The FIFO accurately indicated full and empty conditions. When the FIFO was full, additional write operations were correctly prevented, and when the FIFO was empty, additional read operations were correctly halted.
+Accurate Data Handling: The FIFO successfully saved and retrieved data without any errors. This was tested and proven using a variety of different data patterns.
+
+Reliable Status Flags: The full and empty indicators worked exactly as planned. The FIFO safely blocked new writes when it was completely full, and stopped new reads when it was entirely empty.
 
 ## Conclusion
 
