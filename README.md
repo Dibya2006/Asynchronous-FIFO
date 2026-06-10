@@ -34,13 +34,13 @@ An Asynchronous FIFO (Async FIFO) is a specialized variant designed to handle da
 
 Key Applications:
 
--Clock Domain Crossing (CDC): Safely moving data between systems running on completely separate frequencies, such as a fast processor and a slower peripheral.
+1. Clock Domain Crossing (CDC): Safely moving data between systems running on completely separate frequencies, such as a fast processor and a slower peripheral.
 
--System-on-Chip (SoC) Integration: Facilitating smooth communication between diverse internal modules that operate at different clock rates.
+2. System-on-Chip (SoC) Integration: Facilitating smooth communication between diverse internal modules that operate at different clock rates.
 
--Rate Matching & Buffering: Absorbing variations in data throughput between a fast producer and a slow consumer (or vice versa).
+3. Rate Matching & Buffering: Absorbing variations in data throughput between a fast producer and a slow consumer (or vice versa).
 
--FPGA Design: Connecting independent subsystems within programmable logic where global clock synchronization is impractical.
+4. FPGA Design: Connecting independent subsystems within programmable logic where global clock synchronization is impractical.
 ## Design Space Exploration and Design Strategies
 
 The block diagram of async. FIFO that is implemented in this repo is given below. Thin lines represent single bit signal where as thisck lines represent multi-bit signal.
