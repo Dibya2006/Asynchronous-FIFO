@@ -146,7 +146,7 @@ The testbench uses clock signals for writing and reading, and includes reset sig
 
 ## Outcomes
 
-Key Results
+Key Results:
 
 Accurate Data Handling: The FIFO successfully saved and retrieved data without any errors. This was tested and proven using a variety of different data patterns.
 
