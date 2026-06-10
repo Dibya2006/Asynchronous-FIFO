@@ -19,9 +19,9 @@ This repo contains verilog code for an asynchronous FIFO.
         5. [wptr_full.v](#wptr_fullv)
 4. [Testbench Case Implementation](#testbench-case-implementation)
     1. [Waveforms](#waveforms)
-5. [Results](#results)
+5. [Outcomes](#Outcomes)
 6. [Conclusion](#conclusion)
-7. [References](#references)
+7. [Sources](#Sources)
    
 ## Author
 [Dibyajyoti Patra](https://www.linkedin.com/in/dibyajyoti-patra-567829323/), B. Tech. EE 2024-28, NIT Rourkela
