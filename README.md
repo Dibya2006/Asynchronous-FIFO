@@ -144,7 +144,7 @@ The testbench uses clock signals for writing and reading, and includes reset sig
 <img src=".\Assets\tb_2.png" alt="Alt Text" width="800">
 <img src=".\Assets\tb_3.png" alt="Alt Text" width="800">
 
-## Results
+## Outcomes
 
 The asynchronous FIFO design was tested using a testbench. The following key results were observed:-
 
@@ -153,12 +153,12 @@ The asynchronous FIFO design was tested using a testbench. The following key res
 
 ## Conclusion
 
-The design and implementation of the asynchronous FIFO were successful, demonstrating reliable data storage and retrieval between asynchronous clock domains. The use of gray code counters ensured proper synchronization, and the module's behavior in full and empty conditions was as expected. The testbench validated the FIFO's functionality across different scenarios, proving the design's correctness and efficiency.
+This project successfully designed and implemented an asynchronous FIFO, proving its reliability for data storage and retrieval across distinct clock domains. By utilizing Gray code counters, the architecture effectively synchronized pointer values, while simulation results confirmed expected behavior during boundary (full and empty) states. Comprehensive testbench verification validated the design's functionality and efficiency across multiple operational scenarios.
 
-While simulations confirmed the functional aspects of the design, it is important to note that metastability issues cannot be fully tested through simulations alone. Metastability is a physical phenomenon that occurs in actual hardware, and its mitigation relies on proper design techniques like the use of synchronizers and careful consideration of setup and hold times.
+However, while functional simulations yielded positive results, they inherently cannot fully model physical hardware phenomena like metastability. In hardware, mitigating metastability depends strictly on physical constraints, including the implementation of multi-stage synchronizers and strict adherence to setup and hold times.
 
-Overall, the asynchronous FIFO design is well-suited for applications requiring data transfer between different clock domains, ensuring data integrity and synchronization. Future work could involve implementing the design on actual hardware to observe real-world behavior and further testing under varied clock frequencies and data patterns to ensure robust performance.
+Ultimately, this asynchronous FIFO architecture provides a robust solution for cross-clock domain data transfers without compromising data integrity. Future steps should focus on hardware implementation (FPGA/ASIC) to evaluate real-world physical behavior and testing under extreme clock frequency deltas and complex data patterns to ensure maximum reliability.
 
-## References
+## Bibliography
 1. [Sunburst Design: Simulation and Synthesis Techniques for Asynchronous FIFO Design](http://www.sunburst-design.com/papers/CummingsSNUG2002SJ_FIFO1.pdf)
 2. [VLSI verify Blog - Asynchronous FIFO](https://vlsiverify.com/verilog/verilog-codes/asynchronous-fifo/)
