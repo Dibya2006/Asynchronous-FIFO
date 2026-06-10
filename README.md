@@ -21,7 +21,7 @@ This repo contains verilog code for an asynchronous FIFO.
     1. [Waveforms](#waveforms)
 5. [Outcomes](#Outcomes)
 6. [Conclusion](#conclusion)
-7. [Sources](#Sources)
+7. [Bibliography](#Bibliography)
    
 ## Author
 [Dibyajyoti Patra](https://www.linkedin.com/in/dibyajyoti-patra-567829323/), B. Tech. EE 2024-28, NIT Rourkela
